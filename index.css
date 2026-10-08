@@ -82,6 +82,7 @@
 
 /* container */
 .container {
+	font-size: 1rem;
 	width: 1000px;
 	min-height: 1000px;
 	max-height: 999999px; /* prevents font boosting */
@@ -238,13 +239,13 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 165%;
+	font-size: 1.65rem;
 }
 
 h2 {
 	color: #224b8d;	
 	padding-top: 0.8em;
-	font-size: 125%;
+	font-size: 1.25rem;
 }
 
 h2 + h3 {
@@ -252,7 +253,7 @@ h2 + h3 {
 }
 
 h3 {
-	font-size: 110%;
+	font-size: 1.1rem;
 	border-bottom: none;
 }
 
@@ -357,7 +358,7 @@ li {
 
 .current-projects > li > b {
 	color: #224b8d;
-	font-size: 108%;
+	font-size: 1.08rem;
 }
 
 .current-projects .project-directions {
@@ -370,11 +371,13 @@ li {
 
 .current-projects .project-direction {
 	color: #333;
+	font-size: 1rem;
 	font-weight: bold;
 }
 
 .current-projects .project-label {
 	color: #444;
+	font-size: 1rem;
 	font-weight: bold;
 }
 
