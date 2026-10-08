@@ -322,6 +322,62 @@ li {
 	margin: 0.3em
 }
 
+.container li {
+	margin: 0.2em 0 0;
+	line-height: 1.3;
+}
+
+.container li:first-child {
+	margin-top: 0;
+}
+
+.current-projects ul {
+	padding-left: 1.25em;
+	padding-top: 0;
+	margin-top: 0.3em;
+	margin-bottom: 0;
+	list-style-type: disc;
+}
+
+.current-projects > li > ul {
+	margin-top: 0.4em;
+}
+
+.current-projects > li + li {
+	margin-top: 0.75em;
+}
+
+.current-projects .project-directions > li + li {
+	margin-top: 0.5em;
+}
+
+.current-projects .other-projects > ul {
+	margin-top: 0.25em;
+}
+
+.current-projects > li > b {
+	color: #224b8d;
+	font-size: 108%;
+}
+
+.current-projects .project-directions {
+	list-style-type: circle;
+}
+
+.current-projects .other-projects {
+	list-style-type: square;
+}
+
+.current-projects .project-direction {
+	color: #333;
+	font-weight: bold;
+}
+
+.current-projects .project-label {
+	color: #444;
+	font-weight: bold;
+}
+
 ol {
 	list-style-position: outside;
 	list-style-type: decimal;
